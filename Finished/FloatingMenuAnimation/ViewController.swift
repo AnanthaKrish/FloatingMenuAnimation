@@ -49,6 +49,15 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         buttonObj1.setTitle(title, for: .normal)
         buttonObj2.setTitle(title, for: .normal)
         buttonObj3.setTitle(title, for: .normal)
+        
+        buttonObjc1WidthConstraint.constant = width
+        
+        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
+            
+            self.view.layoutIfNeeded()
+            
+            
+        })
     }
 
 
