@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    // Buttons
     @IBOutlet var buttonObj1: UIButton!
     @IBOutlet var buttonObj2: UIButton!
     @IBOutlet var buttonObj3: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
