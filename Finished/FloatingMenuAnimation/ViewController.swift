@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
     @IBOutlet var buttonObjc1WidthConstraint: NSLayoutConstraint!
     @IBOutlet var buttonObjc2WidthConstraint: NSLayoutConstraint!
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet var buttonObj3: UIButton!
     
     
+    var isShowing = true
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -27,6 +29,8 @@ class ViewController: UIViewController {
         buttonObj1.modifyView()
         buttonObj2.modifyView()
         buttonObj3.modifyView()
+        
+        let tapGest = UITapGestureRecognizer(target: self, action: #selector())
     }
 
 
