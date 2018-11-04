@@ -18,8 +18,12 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        buttonObj1.modifyView()
+        buttonObj2.modifyView()
+        buttonObj3.modifyView()
     }
 
 
