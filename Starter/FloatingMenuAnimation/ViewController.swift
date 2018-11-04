@@ -26,5 +26,10 @@ class ViewController: UIViewController {
 }
 
 extension UIButton {
-    
+    func modifyView() {
+        self.layer.masksToBounds = false
+        self.clipsToBounds = true
+        self.layer.cornerRadius = 10
+        self.layer.maskedCorners = [.layerMinXMinYCorner,.layerMinXMaxYCorner]
+    }
 }
