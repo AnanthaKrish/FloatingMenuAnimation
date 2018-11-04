@@ -31,6 +31,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         buttonObj3.modifyView()
         
         let tapGest = UITapGestureRecognizer(target: self, action: #selector(ViewController.animateActions))
+        self.view.addGestureRecognizer(tapGest)
     }
     
     @objc func animateActions() {
