@@ -56,6 +56,13 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             
             self.view.layoutIfNeeded()
             
+            self.buttonObjc2WidthConstraint.constant = width
+            UIView.animate(withDuration: 0.3, delay: 0.1, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
+                
+                self.view.layoutIfNeeded()
+                
+                
+            })
             
         })
     }
