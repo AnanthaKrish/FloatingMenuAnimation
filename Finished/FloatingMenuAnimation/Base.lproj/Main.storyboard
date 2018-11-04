@@ -26,26 +26,35 @@
                                 <color key="textColor" red="0.28125" green="0.83434354030000002" blue="0.43443267619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCX-H9-LDO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCX-H9-LDO">
                                 <rect key="frame" x="214" y="309" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.0039215686274509803" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1Kb-dj-P0d"/>
+                                    <constraint firstAttribute="height" constant="50" id="EAC-50-IXT"/>
+                                </constraints>
                                 <state key="normal" title="Action">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYg-q0-ht6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYg-q0-ht6">
                                 <rect key="frame" x="214" y="389" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.0039215686269999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="B0W-E6-g1R"/>
+                                    <constraint firstAttribute="width" constant="200" id="htT-ah-ytP"/>
+                                </constraints>
                                 <state key="normal" title="Action">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxv-wj-NGS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxv-wj-NGS">
                                 <rect key="frame" x="214" y="469" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.0039215686269999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="CaW-Uz-Afx"/>
+                                    <constraint firstAttribute="height" constant="50" id="FRn-Xf-qY8"/>
+                                </constraints>
                                 <state key="normal" title="Action">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -53,7 +62,13 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uYg-q0-ht6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-34" id="74X-dp-dzc"/>
+                            <constraint firstItem="VCX-H9-LDO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-114" id="7Ed-X1-KvI"/>
+                            <constraint firstItem="fxv-wj-NGS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BHe-tk-sau"/>
+                            <constraint firstItem="VCX-H9-LDO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GCp-XI-CGq"/>
                             <constraint firstItem="qGJ-x3-woB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="eDS-dX-3Ua"/>
+                            <constraint firstItem="uYg-q0-ht6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eiT-ea-Pdw"/>
+                            <constraint firstItem="fxv-wj-NGS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="46" id="u9G-8q-5Aq"/>
                             <constraint firstItem="qGJ-x3-woB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uJd-P2-UXQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
