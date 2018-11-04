@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var buttonObjc1WidthConstraint: NSLayoutConstraint!
+    @IBOutlet var buttonObjc2WidthConstraint: NSLayoutConstraint!
+    @IBOutlet var buttonObjc3WidthConstraint: NSLayoutConstraint!
     
     // Buttons
     @IBOutlet var buttonObj1: UIButton!
