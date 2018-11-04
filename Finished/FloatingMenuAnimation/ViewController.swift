@@ -36,10 +36,19 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @objc func animateActions() {
         
         var width:CGFloat = 20
-        var title = "Action"
+        var title = ""
         
         isShowing.toggle()
         
+        if !isShowing {
+            
+            width = 200
+            title = "Action"
+        }
+        
+        buttonObj1.setTitle(title, for: .normal)
+        buttonObj2.setTitle(title, for: .normal)
+        buttonObj3.setTitle(title, for: .normal)
     }
 
 
