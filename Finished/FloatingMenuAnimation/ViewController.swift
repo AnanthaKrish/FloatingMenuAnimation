@@ -30,7 +30,16 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         buttonObj2.modifyView()
         buttonObj3.modifyView()
         
-        let tapGest = UITapGestureRecognizer(target: self, action: #selector())
+        let tapGest = UITapGestureRecognizer(target: self, action: #selector(ViewController.animateActions))
+    }
+    
+    @objc func animateActions() {
+        
+        var width:CGFloat = 20
+        var title = "Action"
+        
+        isShowing.toggle()
+        
     }
 
 
